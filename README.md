@@ -10,7 +10,7 @@ Bu dersde, double ve char veri tiplerine odaklanıldı. Kullanıcıdan klavye ar
 Bu dersde, if-else yapılanmasına değinildi. Karşılaştırma ve mantıksal operatörler öğrenildi. Mod işlemi ile örnekler çözüldü ve son olarak switch-case bloğu detaylı bir şekilde anlatıldı.
 
 ## Ders 4: Döngüler 🔄
-Bu dersde, for ve while döngüleri hakkında bilgi verildi. Kullanıcılar, bu döngülerin nasıl çalıştığını öğrenerek çeşitli örnekler üzerinde uygulamalar yaptı.
+Bu dersde, for ve while döngüleri hakkında bilgi verildi. Bu döngülerin nasıl çalıştığını öğrenilerek çeşitli örnekler üzerinde uygulamalar yaptı.
 
 ## Ders 5: For Döngüsü Örnekleri 🔄
 Bu dersde, for döngüsü ile neler yapabileceğimizi öğrendik. For döngüsünün temel yapı taşlarını keşfederek çeşitli örnekler üzerinde pratik yapıldı.
