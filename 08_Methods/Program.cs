@@ -10,7 +10,94 @@ namespace _08_Methods
     {
         static void Main(string[] args)
         {
-            
+            #region gencayyildiz.com
+            #region İşlevsel Açıdan Metot Bize Ne Kazandırır?
+            // Kodun içindeki tekrar eden kodları tek seferlik tanımlayıp/inşa edip tek seferde çağırmamızı/kullanmamızı sağlar.
+            // Yazılmış olan bir kodu tekrar çağırmakla, tekrar yazmak arasında fark vardır!
+            // Metotlar, içerisine yazılan kodun, tekrarlı bir şekilde kullanılmasını sağlarlar. Ve bunu yaparken kaynak kodun tekrar etmesini de engellemiş olurlar. Böylecek ideal kodlamaya erişmiş oluruz.
+            // Nerede çağırırsan çağır, aynı işlevi yapacaktır.
+            #endregion // İşlevsel Açıdan Metot Bize Ne Kazandırır?
+            #region Metot Anatomisi Nasıldır? Gelin Metot İmzasını İnceleyelim
+            // Şu an için class içerisinde metot tanımlıyoruz.
+            // Bir metot oluşturabilmek için:
+            // Önce; Metodun dışarıdan erişebilirliliğini belirlememiz gerekir.
+            // [erişim belirleyicisi] [geri dönüş değeri] [metodun adı] () - imza
+            //{
+            // gövde
+            //}
+            // [erişim belirleyicisi] ileride göreceğimiz Access Modifer yapılardır.
+            // Oluşturulmuş olan bir yapının dışarıdan erişilip erişilemeyeceğini belirlememizi sağlayan komutlardır.
+            // public: Erişilsin
+            // private : Gizli/Erişilmesin.
+            // [geri dönüş değeri]
+            // Metotlar yaptıkları operasyonlar/algoritmalar/işlemler neticesinde geriye değerler dönebilmektedirler.
+            // Bu değer kodun içerisinde yakalanabilir ve programatik olarak işlemlere tabii tutulabilir.
+            // Geri dönüş değerini ekran çıktısıyla karıştırmamak gerekmektedir.
+            // [metodun adı]
+            // Metotlarda diğer yapılar gibi bir isim almakta ve diğer tanımlama özellikleri geçerlidir.
+            // ( )
+            // Metot dediğimiz bu yapılanmalar dış dünyadan parametreler alabilmekte ve bu parametrelerdeki değerler üzerinde işlemler gerçekleştirebilmektedir. İşte bu parametreleri parantez içerisinden alabilmekteyiz.
+            // Bir metot illaki parametre almak zorunda değildir.
+            // (int sayi1) (int sayi1, int sayi2) ()
+            // bir parametre iki parametre hiç :)
+            // {}
+            // Metodun gerçekleştireceği operasyonu/fiiliyatı/eylemi/algoritmayı oluşturduğumuz kodladığımız faaliyet alanıdır.
+            #endregion // Metot Anatomisi Nasıldır? Gelin Metot İmzasını İnceleyelim
+            #region İşlevine Göre Metot Türleri Nelerdir?
+            // Yapılacak işleme göre dört farklı türde/varyasyonda metot oluşturulabilmektedir.
+            // Geriye Değer Döndürmeyen, Parametre Almayan
+            // Geriye Değer Döndürmeyen, Parametre Alan
+            // Geriye Değer Döndüren, Parametre Almayan
+            // Geriye Değer Döndüren, Parametre Alan
+            #region Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndürmeyen Parametre Almayan Metot Türü
+            // [erişim belirleyicisi] [geriye dönüş değeri] [Metot adı]()
+            //{
+            //}
+            void Metot2() => Console.WriteLine("Geriye değer döndürmeyen, paramaetre almayan metot oluşturuldr.");
+            // Bir metot geriye değer döndürmüyorsa bunun void ile bildirilmesi zorunludur.
+            #endregion // Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndürmeyen Parametre Almayan Metot Türü
+            #region Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndürmeyen Parametre Alan Metot Türü
+            void Metot3(int a)
+            // parametre
+            {
+            }
+            void Metot4(int a, bool b)
+            {
+            }
+            void Metot5(int a, bool b, char c)
+            {
+            }
+            #endregion // Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndürmeyen Parametre Alan Metot Türü
+            #region Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndüren Parametre Almayan Metot Türü
+            // Eğer ki bir metot geriye herhangi bir türde değer döndüreceğini ifade ediyorsa kesinlikle o türde bir değer döndürmelidir. Aksi taktirde hata verir.
+            char Metot5()
+            // geriye char değerinde değer döndürür
+            {
+                return 'a'; // Geriye değer döndüren fonksiyonlarda, bildirilen türde bir değer döndürebilmek için return keywordünü kullanmamız gerekmektedir.
+                            // Return; nerede işlenirse orada ilgili fonksiyondan/metotdan çıkılır.
+                            // Türlere uygun şekilde bir değer döndürülmelidir.
+                            // Yazsan da yazmasan da private dir. Default olan o :)
+            }
+            #endregion // Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndüren Parametre Almayan Metot Türü
+            #region Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndüren Parametre Alan Metot Türü
+            bool Metot6(int r)
+            {
+                return true;
+            }
+            #endregion // Metot Tanımlama/Oluşturma Varyasyonları - Geriye Değer Döndüren Parametre Alan Metot Türü
+            #endregion // İşlevine Göre Metot Türleri Nelerdir?
+            #region Metodun Geriye Değer Döndürmesi Ne Demektir?
+            int Topla(int sayi1, int sayi2)
+            {
+                int sonuc = sayi1 + sayi2;
+                Console.WriteLine(sonuc); // ekrana çıktı verir
+                return sonuc; // ekrana çıktı vermez sonucu kullanmamız için tutar
+                              // Metodun geriye değer döndürmesi demek, metodun yaptığı işlem neticesinde üretilen değeri ekrana/console/veritabanına/herhangi bir log ekranına çıktı vermesi demek değildir.
+                              // Metodun geriye döndürdüğü değer, programatik olarak yakalanıp algoritmanın akışında farklı yönlendirmelere sebebiyet verebilen değerdir.
+                              // Metodun geriye döndürdüğü değer algoritmanın akışında kullanılabilir değerdir.
+            }
+            #endregion // Metodun Geriye Değer Döndürmesi Ne Demektir?
+            #endregion // gencayyildiz.com
             #region Void Metotlar
             // mor renkli küp = metot
             // Geriye Değer Döndürmeyen Metotlar
