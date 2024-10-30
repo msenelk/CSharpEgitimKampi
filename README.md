@@ -26,3 +26,6 @@ Bu dersde, metotların ne olduğu, metot anatomisi ve işlevine göre metot tür
 
 ## Ders 9: SQL 📊
 Bu dersde, SQL Server'da tablo oluşturma, Identity özelliği ve tabloya veri işleme üzerinde duruldu. Select, Update, Insert ve Delete komutlarına kısa bir giriş yapıldı. Son olarak, veritabanını projeye bağlayarak bir uygulamanın girişini başlatmış olduk.
+
+## Ders 10: CRUD Temelleri Atıldı
+Bu dersde, Create (Oluştur), Read (Oku), Update (Güncelle) ve Delete (Sil) işlemlerinin ilk harflerinden oluşan CRUD'a değinildi. 
