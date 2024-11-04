@@ -29,3 +29,6 @@ Bu dersde, SQL Server'da tablo oluşturma, Identity özelliği ve tabloya veri i
 
 ## Ders 10: CRUD Temelleri Atıldı
 Bu dersde, Create (Oluştur), Read (Oku), Update (Güncelle) ve Delete (Sil) işlemlerinin ilk harflerinden oluşan CRUD'a değinildi. 
+
+![Sertifika]([https://ornek.com/gorsel.png](https://mail.google.com/mail/u/0?ui=2&ik=a1ab3af218&attid=0.2&permmsgid=msg-f:1814500088534702967&th=192e663786069b77&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ996MGVBPHxd5c4AJFz18IW8FTIKn_TgXK1K1qIZh6bJz9dyRgbbqm0tJ-ue1pLBUQOeAQiOF_2kPU65R8Yc8Uv_TcQG-fKPutjMj35PUPSNksbQ7cmSqhD7jw&disp=emb&realattid=ii_m2ycjzvy1))
+
